@@ -1,0 +1,52 @@
+
+#content{
+    position:relative;
+    top:100px;
+
+    
+}
+
+.img2,.img3,.img4{
+    position:relative;
+    top:50px;
+
+}
+#fluid{
+    background: linear-gradient(45deg,white,skyblue,white);
+    width:100%;
+    height:700px;
+}
+.row{
+    position:relative;
+    top:30px;
+}
+#class{
+    position:relative;
+    top:45px;
+}
+#class2{
+    position:relative;
+    top:15px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+#h1{
+    position:relative;
+    top:20px;
+}
+.top{
+    position:relative;
+    top:20px;
+}
