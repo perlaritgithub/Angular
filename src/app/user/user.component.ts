@@ -20,20 +20,24 @@ toggleBtnStatus(){
   setTimeout(()=>this.btnStatus=true, 3000);
 }
 
-updateName(event:any){
-this.name=event.target.value
-}
-createUser(){
+//updateName(event:any){
+//this.name=event.target.value;
+//}
+createUser(name:string){
+  console.log(name);
   
-  if(this.name !=''){
-    console.log(this.name);
-    this.users1.push(this.name);
-    // this.name = '';
-    console.log(typeof this.users);
-    console.log(typeof this.swathi);
-    console.log(typeof this.ramya);
-    console.log(typeof this.users1);
+  if(name !=''){
+    // console.log(this.name);
+    this.users1.push(name);
+   
+    // //this.name = '';
+    // console.log(typeof this.users);
+    // console.log(typeof this.swathi);
+    // console.log(typeof this.ramya);
+    // console.log(typeof this.users1);
+    
   }
+
 }
   ngOnInit(): void {
   }

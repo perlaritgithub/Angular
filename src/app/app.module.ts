@@ -11,6 +11,7 @@ import { AngularformComponent } from './angularform/angularform.component'
 import { HttpClientModule } from '@angular/common/http';
 import { UserComponent } from './user/user.component';
 import { User1Component } from './user1/user1.component';
+import { AddUserComponent } from './add-user/add-user.component';
 
 
 
@@ -23,6 +24,7 @@ import { User1Component } from './user1/user1.component';
     AngularformComponent,
     UserComponent,
     User1Component,
+    AddUserComponent,
     
   ],
   imports: [
